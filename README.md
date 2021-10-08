@@ -6,11 +6,11 @@ U ovom repozitoriju objavljivat ćemo upute, kodove i isječke kodova, konfigura
 
 ## Kratki izvještaji
 
-Student je dužan napraviti kratak izvještaj o radu, alatima i/ili spoznajama sa laba. Za izradu izvještaja ćete koristiti program/servis [Notion](https://www.notion.so). 
+Student je dužan napraviti kratak izvještaj o radu, alatima i spoznajama sa laba. Za izradu izvještaja ćete koristiti program/servis [Notion](https://www.notion.so).
 
-Ovaj alat omogućuje jednostavan izvoz izvještaja u npr. _pdf_ ili _markdown_ (_.md_) formatima (GitHub koristi _markdown_ format za _Readme_ datoteke).
+Ovaj alat omogućuje jednostavno vođenje zabilješki sa labova i njihov izvoz u formi izvještaja u npr. _pdf_ ili _markdown_ (_.md_) formatima; GitHub koristi _markdown_ format za _README.md_ datoteke.
 
-U okviru labova student će nakon svake vježbe ažurirati postojeći izvještaj navedenom alatu/sustavu, izvesti njegovu trenutnu verziju u _markdown_ formatu i učitati je u odgovarajući GitHub repozitorij.
+Student će nakon svake vježbe ažurirati postojeći izvještaj u navedenom alatu/sustavu, izvesti njegovu trenutnu verziju u _markdown_ formatu i učitati je u odgovarajući GitHub repozitorij. U osnovi finalni izvještaj na kraju semestra će izgledati kao ove upute za labove.
 
 ## Popis vježbi
 
