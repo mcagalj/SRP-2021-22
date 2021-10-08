@@ -46,9 +46,25 @@ U nastavku su upute za pokretanje navedene mreže na lokalnom računalu.
 
 ### Linux tools and commands
 
-1. Running bash script
+1. Running bash scripts
 
     ```console
     $ ./start.sh
     $ ./stop.sh
+    ```
+
+2. Open an interactive shell (`bash`) on the container
+
+    ```console
+    $ docker exec -it station-1 bash
+    ```
+
+3. Tools to be used on the container
+
+    ```console
+    $ whatis ping tcpdump arpspoof netcat
+    ping       - send ICMP ECHO_REQUEST to network hosts
+    tcpdump    - dump traffic on a network
+    arpspoof   - intercept packets on a switched LAN
+    netcat     - arbitrary TCP and UDP connections and listens
     ```
