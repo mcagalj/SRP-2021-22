@@ -1,4 +1,4 @@
-# **Sigurnost računala i podataka (Lab 1)**
+# **Sigurnost računala i podataka (Lab 2)**
 
 ## Passive sniffing and analyzing network traffic using Wireshark
 
