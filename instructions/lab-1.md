@@ -7,7 +7,7 @@ U okviru vježbe upoznajemo se s osnovnim sigurnosnim prijetnjama i ranjivostima
 ### ARP spoofing
 
 <p align="center">
-<img src="../img/arp_spoofing.png" width="550px" height="auto"/>
+<img src="../img/arp_spoofing.png" width="750px" height="auto"/>
 </p>
 
 ### Zadatak
