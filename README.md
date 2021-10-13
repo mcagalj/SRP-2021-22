@@ -10,7 +10,9 @@ Student je dužan napraviti kratak izvještaj o radu, alatima i spoznajama sa la
 
 Ovaj alat omogućuje jednostavno vođenje zabilješki sa labova i njihov izvoz u formi izvještaja u npr. _pdf_ ili _markdown_ (_.md_) formatima; GitHub koristi _markdown_ format za _README.md_ datoteke.
 
-Student će nakon svake vježbe ažurirati postojeći izvještaj u navedenom alatu/sustavu, izvesti njegovu trenutnu verziju u _markdown_ formatu i učitati je u odgovarajući GitHub repozitorij. U osnovi finalni izvještaj na kraju semestra će izgledati kao ove upute za labove. Ako nemate iskustva sa Git protokolom i GitHub-om, aplikacija [GitHub Desktop](https://desktop.github.com/) vam može biti od velike pomoći.
+Student će nakon svake vježbe pripremiti kratak izvještaj u Notion aplikaciji, izvesti ga u _pdf_ ili _md_ formatu, te staviti u odgovarajući GitHub repozitorij.
+
+Ako nemate iskustva sa Git protokolom, aplikacija [GitHub Desktop](https://desktop.github.com/) vam može biti od velike pomoći.
 
 
 ## Popis vježbi
