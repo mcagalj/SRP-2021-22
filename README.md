@@ -18,4 +18,4 @@ Ako nemate iskustva sa Git protokolom, aplikacija [GitHub Desktop](https://deskt
 ## Popis vježbi
 
 - [Lab 1 - Man-in-the-middle attack (ARP spoofing)](instructions/lab-1.md)
-- [Lab 2 - Passive sniffing and analyzing network traffic using Wireshark](instructions/lab-2.md)
+- [Lab 2 - Symmetric key cryptography - a crypto challenge](instructions/lab-2.md)
