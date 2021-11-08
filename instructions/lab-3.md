@@ -88,7 +88,7 @@ Sa servera preuzmite personalizirane izazove (direktorij `prezime_ime/mac_challe
 3. Osobne izazove preuzimate izvršavanjem sljedeće naredbe u terminalu:
 
    ```console
-   wget.exe -r -nH -np --reject "index.html*" http://localhost/challenges/prezime_ime/
+   wget.exe -r -nH -np --reject "index.html*" http://a507-server.local/challenges/prezime_ime/
    ```
 
 #### Za provjeru MAC-a treba mi korištena tajna/ključ, gdje ću je naći?
