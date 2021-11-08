@@ -107,7 +107,7 @@ _Fair enough_, koristite nekakvu petlju:
 
 ```python
 
-for ctr in range(1:11):
+for ctr in range(1, 11):
     msg_filename = f"order_{ctr}.txt"
     sig_filename = f"order_{ctr}.sig"    
     print(msg_filename)
@@ -117,7 +117,7 @@ for ctr in range(1:11):
 #### Ne želim otvarati manualno pojedinačne datoteke da bih pročitao _timestamp_-ove
 
 ```python
-for ctr in range(1:11):
+for ctr in range(1, 11):
     msg_filename = f"order_{ctr}.txt"
     sig_filename = f"order_{ctr}.sig"    
     print(msg_filename)
@@ -125,7 +125,7 @@ for ctr in range(1:11):
 
     is_authentic = ...
 
-    print(f'Message {message:>45} {"OK" if is_authentic else "NOK":<6}')
+    print(f'Message {message.decode():>45} {"OK" if is_authentic else "NOK":<6}')
 ```
 
 ## Digital signatures using public-key cryptography
