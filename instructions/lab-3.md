@@ -90,16 +90,21 @@ Sa servera preuzmite personalizirane izazove (direktorij `prezime_ime/mac_challe
 3. Osobne izazove preuzimate izvršavanjem sljedeće naredbe u terminalu:
 
    ```console
-   wget.exe -r -nH -np --reject "index.html*" http://a507-server.local/challenges/prezime_ime/
+   wget.exe -r -nH -np --reject "index.html*" http://a507-server.local/challenges/<prezime_ime>/
    ```
+
+   >NAPOMENA: Ne zaboravite prilagoditi `<prezime_ime>`.  
+
 
 #### Za provjeru MAC-a treba mi korištena tajna/ključ, gdje ću je naći?
 
 Tajna vrijednost koja se koristi kao ključ u MAC algoritmu dobivena je iz vašeg imena (ne pretjerano siguran pristup):
 
 ```python
-key = "cagalj_mario".encode()
+key = "<prezime_ime>".encode()
 ```
+
+>NAPOMENA: Ne zaboravite prilagoditi `<prezime_ime>`.  
 
 #### Ali ne želim ponavljati manualno provjeru svih transakcija
 
