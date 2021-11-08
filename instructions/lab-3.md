@@ -52,6 +52,8 @@ Implementirajte zaštitu integriteta sadržaja dane poruke primjenom odgovaraju�
 
     ```python
     from cryptography.hazmat.primitives import hashes, hmac
+    from cryptography.exceptions import InvalidSignature
+    
 
     def verify_MAC(key, signature, message):
         if not isinstance(message, bytes):
