@@ -19,3 +19,4 @@ Ako nemate iskustva sa Git protokolom, aplikacija [GitHub Desktop](https://deskt
 
 - [Lab 1 - Man-in-the-middle attack (ARP spoofing)](instructions/lab-1.md)
 - [Lab 2 - Symmetric key cryptography - a crypto challenge](instructions/lab-2.md)
+- [Lab 3 - Message authentication and integrity](instructions/lab-3.md)
