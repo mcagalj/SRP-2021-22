@@ -12,11 +12,10 @@ Ovaj alat omogućuje jednostavno vođenje zabilješki sa labova i njihov izvoz u
 
 Student će nakon svake vježbe pripremiti kratak izvještaj u Notion aplikaciji, izvesti ga u _pdf_ ili _md_ formatu, te staviti u odgovarajući GitHub repozitorij.
 
-Ako nemate iskustva sa Git protokolom, aplikacija [GitHub Desktop](https://desktop.github.com/) vam može biti od velike pomoći.
-
-
+Ako nemate iskustva sa Git protokolom, aplikacija [GitHub Desktop](https://desktop.github.com/) vam može biti od velike pomoći. 
 ## Popis vježbi
 
+- [Autostopistički priručnik za Python](https://github.com/JBarti/PyOpen) - *online* priručnik za Python programski jezik, u izradi kojeg sudjeluje vaš kolega **Josip Bartulović**.
 - [Lab 1 - Man-in-the-middle attack (ARP spoofing)](instructions/lab-1.md)
 - [Lab 2 - Symmetric key cryptography - a crypto challenge](instructions/lab-2.md)
 - [Lab 3 - Message authentication and integrity](instructions/lab-3.md)
