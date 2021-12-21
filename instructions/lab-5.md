@@ -115,7 +115,7 @@
     
     ```bash
     # hashcat --force -m 1800 -a 0 <password_hash_file> <dictionary_file> --status --status-timer 10
-    hashcat --force -m 1800 -a 0 lab-5-hash.txt dictionary/g1/dictionary_offline.txt --status --status-timer 10
+    hashcat --force -m 1800 -a 0 hash.txt dictionary/g1/dictionary_offline.txt --status --status-timer 10
     ```
     
 5. Test validity of the cracked password by logging into the remote machine as follows.
