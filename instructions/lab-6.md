@@ -196,7 +196,7 @@ Linux procesi su programi koji se trenutno izvršavaju u odgovarajućem adresnom
     
     U kontekstu onog što smo naučili iz prethodnih zadataka o načinu na koji Linux regulira pristup resursima, razmislite o sljedećem scenariju. Logirate se u sustav kao neprivilegirani korisnik (npr. `alice`) i želite promjeniti zaporku. Zaporku možete promjeniti korištenjem naredbe `passwd`. Sustav će vam dopustiti promjenu zaporke i ažurirat će datoteku `/etc/shadow` sa novom *hash* vrijednosti vaše zaporke. **Ako nemate prava pristupa datoteci `/etc/shadow` (vlasnik je korisnik sa `uid = 0`) a pokretanjem programa `passwd` ovaj program preuzima vaš `uid`, kako je moguće da možete napraviti promjenu u navedenoj datoteci i time ažurirati vašu zaporku?**
     
-    Jedan od mehanizama koji Linux koristi u ovakvim slučajevima je mehanizam *efektivnog vlasnika procesa*. Naime, svakom procesu je uz stvarnog vlasnika (označenog sa *real user id - `RUID`*) pridjeljen i *efektivni vlasnik* (`*EUID*`) koji kernel koristi pri provjeri pristupa tog procesa nekom resursu. U većini slučajeva (`RUID = EUID`) osim kad je program označen sa specijalnim `setuid` bitom (vidi primjer u nastavku).
+    Jedan od mehanizama koji Linux koristi u ovakvim slučajevima je mehanizam *efektivnog vlasnika procesa*. Naime, svakom procesu je uz stvarnog vlasnika (označenog sa *real user id - `RUID`*) pridjeljen i *efektivni vlasnik* (*`EUID`*) koji kernel koristi pri provjeri pristupa tog procesa nekom resursu. U većini slučajeva (`RUID = EUID`) osim kad je program označen sa specijalnim `setuid` bitom (vidi primjer u nastavku).
     
     ```bash
     # Note that in place of "x" flag, we now have "s" flag
