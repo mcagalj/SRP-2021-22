@@ -22,3 +22,4 @@ Ako nemate iskustva sa Git protokolom, aplikacija [GitHub Desktop](https://deskt
 - [Lab 3 - Message authentication and integrity](instructions/lab-3.md)
 - [Lab 4 - Password-hashing (iterative hashing, salt, memory-hard functions)](instructions/lab-4.md)
 - [Lab 5 - Online and Offline Password Guessing](instructions/lab-5.md)
+- [Lab 6 - Linux permissions and ACLs](instructions/lab-6.md)
