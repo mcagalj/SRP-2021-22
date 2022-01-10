@@ -183,7 +183,8 @@ Linux procesi su programi koji se trenutno izvršavaju u odgovarajućem adresnom
     ```python
     import os
     
-    print(f'Real (R), effective (E) and saved (S) UIDs: {os.getresuid()}\n')
+    print('Real (R), effective (E) and saved (S) UIDs:') 
+    print(os.getresuid())
     
     with open('/home/alice/srp/security.txt', 'r') as f:
         print(f.read())
